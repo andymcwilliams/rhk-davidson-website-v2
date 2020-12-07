@@ -1,4 +1,5 @@
 .App {
+  background-color: white;
   text-align: center;
 }
 
@@ -8,12 +9,12 @@
 
 @media screen and (max-width: 1000px) {
   .App-logo {
-    width: 80%;
+    height: 100%;
   }
 }
 
 .App-header {
-  min-height: 10vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +24,11 @@
 }
 
 .App-body {
-  min-height: 90vh;
+  background-color: white;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
   margin-left: 10%;
